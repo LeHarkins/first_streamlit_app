@@ -42,8 +42,3 @@ my_cur.execute("Select* from fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("This Fruit load list contains:")
 streamlit.dataframe(my_data_rows)
-
-
-add_my_fruit = 
-streamlit.write('Thanks for adding ', add_my_fruit)
-my_cur.execute("insert into fruit_load_list Values ('From streamlit')")
